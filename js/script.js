@@ -78,25 +78,25 @@ const displayMovements = function (movements) {
 
 }
 
-// challenge
+// challenge 1
 
-const julia = [3, 5, 2, 12, 7];
-const kate = [4, 1, 15, 8, 8]
-julia.shift()
-julia.splice(-2)
+// const julia = [3, 5, 2, 12, 7];
+// const kate = [4, 1, 15, 8, 8]
+// julia.shift()
+// julia.splice(-2)
 
-const checkDogs = (jD, kD) =>{
-  const type = jD || kD >=   3 ? 'adult' : 'puppy';
-  julia.map((jD, i) =>{
-    console.log(`JUlIA's dog number ${i + 1} is a ${type} and is ${jD} years old`);
-  })
-  kate.forEach((kD, i) =>{
-    console.log(`KATE's dog number ${i + 1} is a ${type} and is ${kD} years old`);
-  })
-}
-checkDogs(julia, kate)
+// const checkDogs = (jD, kD) =>{
+//   const type = jD || kD >=   3 ? 'adult' : 'puppy';
+//   julia.map((jD, i) =>{
+//     console.log(`JUlIA's dog number ${i + 1} is a ${type} and is ${jD} years old`);
+//   })
+//   kate.forEach((kD, i) =>{
+//     console.log(`KATE's dog number ${i + 1} is a ${type} and is ${kD} years old`);
+//   })
+// }
+// checkDogs(julia, kate)
 
-displayMovements(account1.movements)
+// displayMovements(account1.movements)
 /////////////////////////////////////////////////
 /////////////////////////////////////////////////
 // LECTURES
